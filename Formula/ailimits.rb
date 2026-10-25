@@ -2,27 +2,27 @@
 class Ailimits < Formula
   desc "Helper that shows your Claude Code usage limits on a Garmin watch"
   homepage "https://github.com/SecondBrainProd/ai-limits"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/SecondBrainProd/ai-limits/releases/download/v0.1.0/ailimits_0.1.0_darwin_arm64.tar.gz"
-      sha256 "854549639e6245a90dc29598eb5caf116ff757fe19098aac0495f8698900db1f"
+      url "https://github.com/SecondBrainProd/ai-limits/releases/download/v0.1.1/ailimits_0.1.1_darwin_arm64.tar.gz"
+      sha256 "7ed82f1fe737b53b5044a5537e58558857f938251727a45f6ea6c68de9a57179"
     end
     on_intel do
-      url "https://github.com/SecondBrainProd/ai-limits/releases/download/v0.1.0/ailimits_0.1.0_darwin_amd64.tar.gz"
-      sha256 "05db0b527706bdddef36d0f6070b6d7268df0abe396cc9eff0890dedb3a92a26"
+      url "https://github.com/SecondBrainProd/ai-limits/releases/download/v0.1.1/ailimits_0.1.1_darwin_amd64.tar.gz"
+      sha256 "ae8315d52cfcf861367e30a2f42526ccd562771eda94d983dc8c805b35afb0bf"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/SecondBrainProd/ai-limits/releases/download/v0.1.0/ailimits_0.1.0_linux_arm64.tar.gz"
-      sha256 "5cf7b88e25003198c9fefd9ad24ffcbcdb08d7ab2571320bb22a8dcedfe4dce9"
+      url "https://github.com/SecondBrainProd/ai-limits/releases/download/v0.1.1/ailimits_0.1.1_linux_arm64.tar.gz"
+      sha256 "90150356bcdea8b3f39f56b8488553e8063473ab09e18fa813448572d49d9c41"
     end
     on_intel do
-      url "https://github.com/SecondBrainProd/ai-limits/releases/download/v0.1.0/ailimits_0.1.0_linux_amd64.tar.gz"
-      sha256 "03de55ee5b0e689b6d441654f86687e843c8c3edfedf6114d6e825557c48c612"
+      url "https://github.com/SecondBrainProd/ai-limits/releases/download/v0.1.1/ailimits_0.1.1_linux_amd64.tar.gz"
+      sha256 "0331efcd653e7ccdfcaeecde23c3532c3f419ce433db07619f52637a9938db0d"
     end
   end
 
